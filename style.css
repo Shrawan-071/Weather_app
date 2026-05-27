@@ -1,0 +1,81 @@
+body{
+    background-color: #d5bf86;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 7vmin;
+   padding: 5vmin;
+}
+
+.container {
+   background-color: #f1f0cc;
+   border-radius: 6vmin;
+   padding: 5vmin; 
+  
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #8d775f;
+}
+
+input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 95%;
+    min-height: 5vmin;
+    outline: none;
+    border: none;
+    margin-bottom: 3vmin;
+    font-size: 2.5vmin;
+    border-radius: 1.2vmin;  
+}
+
+button {
+   
+ background-color: #d5bf86;
+ border: none;
+ border-radius: 1vmin;
+ font-size: 2.5vmin;
+ margin-left: 28.5%;
+ cursor: pointer;
+
+}
+.output{
+      display: flex;
+    flex-direction: column;  
+    align-items: center;
+   
+}
+
+/* #weather-Icon{
+    width: 12vmin;
+    height: 12vmin;
+    margin-bottom: 0vmin; 
+} */
+
+ .city-Name{
+    font-size: 3.4vmin;
+    margin-bottom: 0.7vmin; 
+   
+}
+
+.date-Time{
+    color: red;
+    
+}
+
+.temperature{
+    margin-bottom: 0.1vmin; 
+}
+
+
+
+.message {
+    color: red;
+    margin-bottom: 0.1vmin; 
+}
+
